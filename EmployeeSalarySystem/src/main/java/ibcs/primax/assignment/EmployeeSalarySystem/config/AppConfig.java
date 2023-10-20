@@ -27,6 +27,10 @@ public class AppConfig {
         return new UserResponseModel();
     }
     @Bean
+    public Employee employee(){
+        return new Employee();
+    }
+    @Bean
     public AuthenticationProvider authenticationProvider(){
         DaoAuthenticationProvider authProvider = new DaoAuthenticationProvider();
         authProvider.setUserDetailsService(userDetailsService());
