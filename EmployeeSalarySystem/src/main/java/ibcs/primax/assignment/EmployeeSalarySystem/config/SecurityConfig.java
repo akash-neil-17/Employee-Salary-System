@@ -28,7 +28,7 @@ public class SecurityConfig {
                 .permitAll()
                 .requestMatchers("/ess/user/login")
                 .permitAll()
-                .requestMatchers("/ess/batch/**","/ess/task-type/**").hasAnyAuthority("ADMIN","EMPLOYEE")
+//                .requestMatchers("/ess/batch/**","/ess/task-type/**").hasAnyAuthority("ADMIN","EMPLOYEE")
                 .anyRequest()
                 .authenticated()
                 .and()
