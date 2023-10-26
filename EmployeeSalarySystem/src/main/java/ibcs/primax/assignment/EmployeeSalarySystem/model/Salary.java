@@ -11,7 +11,7 @@ import lombok.NoArgsConstructor;
 @Builder
 public class Salary {
     private Grade grade;
-    private Float basicAmount;
-    private Float basicHouseRent;
-    private Float basicMedicalAllowance;
+    private Integer basicAmount;
+    private Integer basicHouseRent;
+    private Integer basicMedicalAllowance;
 }

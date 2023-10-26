@@ -20,7 +20,7 @@ public class SalaryEntity {
     private Long salaryID;
     @Enumerated(EnumType.STRING)
     private Grade grade;
-    private Float basicAmount;
-    private Float basicHouseRent;
-    private Float basicMedicalAllowance;
+    private Integer basicAmount;
+    private Integer basicHouseRent;
+    private Integer basicMedicalAllowance;
 }
